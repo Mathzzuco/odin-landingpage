@@ -1,16 +1,36 @@
 #top {
-  width: 100%;
+  width: 91%;
   height: 20%;
-  border: 1px solid black;
+  padding-left: 208px;
+  padding-bottom: 24px;
+  display: flex;
   background-color: #1f2937;
+  gap: 462px;
 }
 
-h1 {
+#top h1 {
+  font-family: "Roboto";
+  font-weight: bold;
   font-size: 24px;
   color: #f9faf8;
+  padding-top: 19px;
 }
 
-h3 {
+.header-link-box {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  gap: 25px;
+}
+
+.header-link-box a {
+  font-family: "Roboto";
   font-size: 18px;
   color: #e5e7eb;
+  padding-top: 24px;
+  text-decoration: none;
+}
+
+.test-scroll {
+  height: 2000px;
 }
