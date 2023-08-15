@@ -103,7 +103,7 @@ header h1 {
 
 .information-content {
   max-width: 780px;
-  height: 500px;
+  height: 340px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -128,6 +128,15 @@ header h1 {
   height: 160px;
   border: 4px solid #3882f6;
   border-radius: 20px;
+}
+
+.quote-content {
+  max-width: 780px;
+  height: 410px;
+}
+
+.quote-bg {
+  background-color: #e5e7eb;
 }
 
 body {
