@@ -69,7 +69,6 @@ header h1 {
 .main-content button {
   width: 130px;
   height: 37px;
-  /* padding: 8px 34px; */
   margin-top: 10px;
   background-color: #3882f6;
   border: none;
@@ -154,6 +153,48 @@ header h1 {
   font-size: 24px;
   text-align: right;
   font-weight: 800;
+}
+
+#signup {
+  min-height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-box {
+  width: 100%;
+  min-height: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 0 110px;
+}
+
+.signup-box h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+  color: #f9faf8;
+}
+
+.signup-box p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup-box button {
+  width: 130px;
+  height: 37px;
+  margin-top: 10px;
+  background-color: #3882f6;
+  border: 2px solid#f9faf8;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e5e7eb;
 }
 
 footer {
